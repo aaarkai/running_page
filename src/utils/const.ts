@@ -3,7 +3,7 @@ const MAPBOX_TOKEN =
   // For security reasons, please avoid using the default public token provided by Mapbox as much as possible.
   // Instead, manually add a new token and apply URL restrictions.
   // (please refer to https://github.com/yihong0618/running_page/issues/643#issuecomment-2042668580)
-  'pk.eyJ1IjoieWlob25nMDYxOCIsImEiOiJja2J3M28xbG4wYzl0MzJxZm0ya2Fua2p2In0.PNKfkeQwYuyGOTT_x9BJ4Q';
+  'pk.eyJ1IjoiYWFhcmthaSIsImEiOiJjbTR6M3o5YngxNmFuMndwdHg1dzVxdmszIn0.087FbbHOtJqqPSlzAad0YQ';
 const MUNICIPALITY_CITIES_ARR = [
   '北京市',
   '上海市',
@@ -40,10 +40,10 @@ const MAP_HEIGHT = 600;
 const ROAD_LABEL_DISPLAY = true;
 // update for now 2024/11/17 the privacy mode is true
 //set to `true` if you want to display only the routes without showing the map.
-const PRIVACY_MODE = false;
+const PRIVACY_MODE = true;
 // update for now 2024/11/17 the lights on default is false
 //set to `false` if you want to make light off as default, only effect when `PRIVACY_MODE` = false
-const LIGHTS_ON =false;
+const LIGHTS_ON = false;
 //set to `true` if you want to show the 'Elevation Gain' column
 const SHOW_ELEVATION_GAIN = false;
 // richer title for the activity types (like garmin style)
@@ -99,7 +99,7 @@ const ACTIVITY_TYPES = {
   CYCLING_TITLE,
   SKIING_TITLE,
   WALKING_TITLE,
-}
+};
 
 const RUN_TITLES = {
   FULL_MARATHON_RUN_TITLE,
@@ -111,17 +111,17 @@ const RUN_TITLES = {
   NIGHT_RUN_TITLE,
 };
 const ACTIVITY_TOTAL = {
-    ACTIVITY_COUNT_TITLE,
-    MAX_DISTANCE_TITLE,
-    MAX_SPEED_TITLE,
-    TOTAL_TIME_TITLE,
-    AVERAGE_SPEED_TITLE,
-    TOTAL_DISTANCE_TITLE,
-    YEARLY_TITLE,
-    MONTHLY_TITLE,
-    WEEKLY_TITLE,
-    DAILY_TITLE,
-    LOCATION_TITLE
+  ACTIVITY_COUNT_TITLE,
+  MAX_DISTANCE_TITLE,
+  MAX_SPEED_TITLE,
+  TOTAL_TIME_TITLE,
+  AVERAGE_SPEED_TITLE,
+  TOTAL_DISTANCE_TITLE,
+  YEARLY_TITLE,
+  MONTHLY_TITLE,
+  WEEKLY_TITLE,
+  DAILY_TITLE,
+  LOCATION_TITLE,
 };
 
 export {
@@ -145,7 +145,7 @@ export {
   SHOW_ELEVATION_GAIN,
   RICH_TITLE,
   ACTIVITY_TYPES,
-  ACTIVITY_TOTAL
+  ACTIVITY_TOTAL,
 };
 
 const nike = 'rgb(224,237,94)'; // if you want change the main color change here src/styles/variables.scss
